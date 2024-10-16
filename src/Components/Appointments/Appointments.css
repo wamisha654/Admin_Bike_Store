@@ -1,0 +1,51 @@
+.list-appointments{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100vh;
+	padding: 0px 50px;
+	
+}
+.list-appts-format-main{
+	box-sizing: border-box;
+	padding: 30px 50px;
+	border-radius: 6px;
+	background: white;
+    display: flex;
+    flex-direction: column;
+	width: 100%;
+	max-width: 800px;
+	color: black;
+	
+}
+.list-appts-format-main p{
+  margin-bottom: 0px;
+  color: #7b7b7b;
+  font-size: 15px;
+}
+.remove-button{
+	width: 70px;
+	height: 30px;
+	background-color: indianred;
+	color: white;
+	border-color: white;
+	margin-top: 20px;
+}
+.listproduct-allappointmetns{
+	overflow-y: auto;
+}
+@media(max-width: 800px){
+	.list-appointments{
+		box-sizing: border-box;
+		width: 95%;
+		height: 100%;
+		padding: 10px 30px;
+		margin: 20px auto;
+	}
+	.list-appts-format-main{
+		padding: 15px 0px;
+		color: black;
+		font-size: 12px;
+	}
+	
+}
